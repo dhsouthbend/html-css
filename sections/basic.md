@@ -23,26 +23,28 @@ After the `DOCTYPE`, we see the start of the **Root Element**. EVERYTHING—all 
 
 The root element begins by indicating which language the document is written in; and in this basic template, `en` tells us and the computer that we are writing in English. 
 
-Within the root element of the basic template below, you'll notice the two main sections of all HTML documents: a head section (demarcated by `<head>` and `</head>`) and a body section (demarcated by `<body>` and `</body>`). 
+Within the root element of the basic template above, you'll notice the two main sections of all HTML documents: a head section (demarcated by `<head>` and `</head>`) and a body section (demarcated by `<body>` and `</body>`). 
 
-The **head section** contains basic information about the file such as the title, keywords, authors, a short description, and so on. This is also where you will link to your CSS stylesheet which describes how you want the page styled—what color, font, size of text, and positioning of elements on the page.
+The **head section** contains basic information about the file such as the title, keywords, authors, a short description, and so on. This is also where you will link to your CSS stylesheet which describes how you want the page styled — colors, fonts, size of text, and positioning of elements on the page.
 
 The **body section** contains the content of the page, including paragraphs, images, links, and more, and indicates how this content is to be structured on the page. 
+
 ## Activity
 
-Create a folder called `htmlpractice` in your projects folder (`~/Desktop/projects/htmlpractice`). If you haven't created a projects folder in an earlier session, create a folder on your desktop instead. Inside that folder, create a new text file and save it as `index.html`.
+Create a folder called `htmlpractice` in your projects folder (`~/Desktop/projects/htmlpractice`). If you haven't created a projects folder in an earlier session, you can create one now. Inside that folder, create a new text file and save it as `index.html`.
 
 Let's use the command line to create the new folder and file:
 
-1. Open your terminal.
-2. Navigate to your projects folder using this command: `cd ~/Desktop/projects`.
-3. Create a new folder: `mkdir htmlpractice`.
-4. Use your VS Code text editor to create a file called `index.html`: `code index.html`.
-5. Paste the template above (starting with `<!DOCTYPE html>`) into the new file.
+1. Open your terminal and navigate to the desktop: `cd ~/Desktop`.
+2. If you don't already have a projects folder, create it with this command: `mkdir projects`.
+3. Navigate to your projects folder using this command: `cd ~/Desktop/projects` or just `cd projects`, since you're already at `~Desktop`.
+4. Create a new folder: `mkdir htmlpractice`.
+5. Use your VS Code text editor to create a file called `index.html`: `code index.html`. You can also open VS Code directly and create a new file there. (If you get an error when you try creating the file in the terminal, you may have a problem with PATH. If you want to fix the problem, open VS Code, choose Command Palette from the View menu, and search for "Shell Command: Install 'code' command in PATH." Selecting that command should fix the problem.)
+6. Paste the template above (starting with `<!DOCTYPE html>`) into the new file.
 
 The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
-Once you've created your new file, open them with a web browser using your graphical user interface:
+Once you've created your new file, open it with a web browser using your graphical user interface:
 
 On Mac OS, click on the Finder in your dock (the apps at the bottom of the screen) and click on Desktop on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your Desktop and find it from there. If you're on Mac and would prefer to use the command line, you can also type `open index.html` from within your `htmlpractice` folder.
 
@@ -56,6 +58,6 @@ When you open the empty template, you'll see only a blank web page. Open your se
 
 When you 'View Page Source', you should see the code for the basic template. 
 
-No content renders on the page, because there is no content in the template at this time. 
+No content renders on the page, because there is no content in the template at this time.
 
 [<<<Back](opening_activity.md) | [Next>>>](elements.md)
