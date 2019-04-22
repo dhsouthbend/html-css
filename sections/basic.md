@@ -39,22 +39,21 @@ Let's use the command line to create the new folder and file:
 2. If you don't already have a projects folder, create it with this command: `mkdir projects`.
 3. Navigate to your projects folder using this command: `cd ~/Desktop/projects` or just `cd projects`, since you're already at `~Desktop`.
 4. Create a new folder: `mkdir htmlpractice`.
-5. Use your VS Code text editor to create a file called `index.html`: `code index.html`. You can also open VS Code directly and create a new file there. (If you get an error when you try creating the file in the terminal, you may have a problem with PATH. If you want to fix the problem, open VS Code, choose Command Palette from the View menu, and search for "Shell Command: Install 'code' command in PATH." Selecting that command should fix the problem.)
-6. Paste the template above (starting with `<!DOCTYPE html>`) into the new file.
+5. Navigate to the folder you just created: `cd htmlpractice`.
+6. Use your VS Code text editor to create a file called `index.html`: `code index.html`. You can also open VS Code directly and create a new file there. (If you get an error when you try creating the file in the terminal, you may have a problem with PATH. If you want to fix the problem, open VS Code, choose Command Palette from the View menu, and search for "Shell Command: Install 'code' command in PATH." Selecting that command should fix things.)
+7. Paste the template above (starting with `<!DOCTYPE html>`) into the new file.
 
 The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
 Once you've created your new file, open it with a web browser using your graphical user interface:
 
-On Mac OS, click on the Finder in your dock (the apps at the bottom of the screen) and click on Desktop on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your Desktop and find it from there. If you're on Mac and would prefer to use the command line, you can also type `open index.html` from within your `htmlpractice` folder.
+On Mac OS, click on the Finder in your dock (the apps at the bottom of the screen) and click on Desktop on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your Desktop and find it from there. Hold control and click on the file, select `Open with...` from the menu, then choose Firefox or Google Chrome from the list of apps that will come up. (If you would prefer to use the command line, you can also type `open -a "/Applications/Google Chrome.app" index.html` from within your `htmlpractice` folder.
 
 On Windows, click the `projects` folder icon on your desktop. Navigate to `projects`, then `htmlpractice`. Double click the `index.html` file. If it does not open in a browser, right click the `index.html` icon and select `Open with...` from the menu. Select Firefox or Google Chrome from the app list that appears.
 
 ### What happens?
 
-When you open the empty template, you'll see only a blank web page. Open your secondary menu (right click on Windows, hold control and click with Mac OS) and view the page source. How can you explain what happens when you open these text files? 
-
-## What should happen when I open each of my two new files?
+When you open the empty template, you'll see only a blank web page. Open your secondary menu (right click on Windows, hold control and click with Mac OS) and view the page source. How can you explain what happens when you open the file and view its source? 
 
 When you 'View Page Source', you should see the code for the basic template. 
 
