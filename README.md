@@ -33,7 +33,7 @@ By the end of this workshop, participants will:
 [Rule Sets](sections/rules.md)  
 [Filtering](sections/filter.md)  
 [Classes and IDs](sections/classes.md)  
-[Useful selectors](sections/selectors.md)  
+[Useful properties](sections/properties.md)  
 [Challenge: Styling Your Institute Website with CSS](sections/creating_stylesheet.md)  
 [Troubleshooting](sections/troubleshooting.md)  
 
