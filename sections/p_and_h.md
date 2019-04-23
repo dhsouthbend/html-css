@@ -29,6 +29,8 @@ The `<p>` tags denote **paragraphs**, or blocks of text.
 ```
 Note that the `<title>` is in the `<head>` element, which is where information about the webpage goes. The title doesn't appear on the page, but instead elsewhere in the browser when the page is displayed. For example, in Chrome, the title appears on the tab above the navbar.
 
+Note also that the elements and tags used in HTML have *meaning*. They provide information about the structure of a web page, showing how its parts work together. Those who make use of assistive technologies such as screen readers rely on this semantic information to navigate the page. Thus, it's important to use elements such as headers only when the information being marked calls for it. Making text large and/or bold for visual effect should be done using CSS. The Mozilla Developer Network has some good [introductory information on semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML).
+
 ![Image showing where the title appears in the Chrome web browser](../images/title.png)
 
 ## Activity
