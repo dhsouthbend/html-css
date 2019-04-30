@@ -47,7 +47,7 @@ The `index.html` file is your default homepage for the website we are creating. 
 
 Once you've created your new file, open it with a web browser using your graphical user interface:
 
-On Mac OS, click on the Finder in your dock (the apps at the bottom of the screen) and click on Desktop on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your Desktop and find it from there. Hold control and click on the file, select `Open with...` from the menu, then choose Firefox or Google Chrome from the list of apps that will come up. (If you would prefer to use the command line, you can also type `open -a "/Applications/Google Chrome.app" index.html` from within your `htmlpractice` folder.
+On Mac OS, click on the Finder in your dock (the apps at the bottom of the screen) and click on Desktop on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your Desktop and find it from there. Hold control and click on the file, select `Open with...` from the menu, then choose Firefox or Google Chrome from the list of apps that will come up. (If you would prefer to use the command line, you can also type `open -a "/Applications/Google Chrome.app" index.html` from within your `htmlpractice` folder.)
 
 On Windows, click the `projects` folder icon on your desktop. Navigate to `projects`, then `htmlpractice`. Double click the `index.html` file. If it does not open in a browser, right click the `index.html` icon and select `Open with...` from the menu. Select Firefox or Google Chrome from the app list that appears.
 
